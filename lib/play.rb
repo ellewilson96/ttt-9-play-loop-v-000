@@ -43,3 +43,4 @@ def play(board)
     puts turn(board)
     turn(board) += 1
 end
+end

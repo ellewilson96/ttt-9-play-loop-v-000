@@ -33,6 +33,7 @@ def turn(board)
   else
     turn(board)
     until turn(board) == 9
+    end
   end
 end
 

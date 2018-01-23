@@ -31,7 +31,7 @@ def turn(board)
     move(board, index)
     display_board(board)
   else
-    do turn(board)
+    turn(board)
     until turn(board) == 9
     end
   end
